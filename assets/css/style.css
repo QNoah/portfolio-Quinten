@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+nav{
+    background: rgb(11, 11, 32);
+    height: 4vw;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+    margin-right: 5%;
+    font-size: 1.5vw;
+}
+nav ul li{
+    padding: .8vw;
+    color: aquamarine;
+    margin-right: 5%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+}
+nav ul li a:hover{
+    color: rgb(79, 153, 128);
+}
+.current_link{
+    text-decoration: line-through;
+}
+section.front-landing{
+    background: url('../imgs/background.png'); 
+    padding-bottom: 10vw;
+}
+.name-landing{
+    font-family: 'Kanit', sans-serif;
+    font-size: 4vw;
+    margin-left: 20%;
+    padding-top: 2vw;
+}
+.name-landing h1{
+    margin: 0;
+    color: white;
+}
+.name-landing h2{
+    margin: 0;
+    color: white;
+}
+.name-landing p{
+    margin: 0;
+    color: white;
+    font-size: 1.2vw;
+}
+.name-landing .tag-line{
+    display: flex;
+}
+.front-landing button{
+    background: none;
+    border: 1px solid aquamarine;
+    padding: 1vw;
+    background: black;
+    border-radius: 5%;
+}
+.front-landing button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+    padding: 2vw;
+}
+section.skills-info{
+    background: rgb(33, 33, 48)
+}
+.skills-info .content{
+    padding-top: 5vw;
+    margin-left: 20%;
+}
+.skills{
+    width: 20%;
+}
+.skill-cube{
+    height: 4vw;
+    border: 1px solid white;
+    margin-bottom: 2vw;
+    display: flex;
+}
+.skill-cube p{
+   font-size: 1.2vw;
+   color: white;
+}
+.skill-cube .logo{
+    width: 5%;
+    margin: .5vw;
+    padding: 1vw;
+    border-radius: 10%;
+    color: white;
+}
