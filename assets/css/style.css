@@ -1,3 +1,7 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
 body{
     margin: 0;
 }
@@ -30,7 +34,7 @@ nav ul li a:hover{
     text-decoration: line-through;
 }
 section.front-landing{
-    background: url('../imgs/background.png'); 
+    background: url('../imgs/background1.png'); 
     padding-bottom: 10vw;
 }
 .name-landing{
@@ -74,6 +78,7 @@ section.skills-info{
 .skills-info .content{
     padding-top: 5vw;
     margin-left: 20%;
+    display: flex;
 }
 .skills{
     width: 20%;
@@ -94,4 +99,48 @@ section.skills-info{
     padding: 1vw;
     border-radius: 10%;
     color: white;
+    border: 2px solid white;
+}
+.logo svg{
+    max-height: 2.5vw;
+    max-width: 2.5vw;
+}
+.what-can-i-do{
+    margin-left: 5%;
+}
+.what-can-i-do h1{
+    color: white;
+    font-size: 2.8vw;
+    margin: 0;
+}
+.what-can-i-do p{
+    color: rgb(175, 175, 175);
+    font-size: 1.2vw;
+    margin: 0;
+    width: 50%;
+}
+.what-can-i-do h2{
+    margin: 0;
+    font-size: 2.5vw;
+    color: rgb(109, 39, 175);
+    line-height: 2.5vw;
+}
+.what-can-i-do h3{
+    margin: 0;
+    font-size: 1.5vw;
+    color: rgb(109, 39, 175);
+}
+.extra-info{
+    display: flex;
+}
+.extra-info h2{
+    margin-top: 1.5vw;
+}
+.extra-info-blocks p{
+    color: white;
+    font-size: 1.2vw;
+    width: 10%;
+}
+.what-can-i-do-p-spacing{
+    padding-top: 2.2vw;
 }
