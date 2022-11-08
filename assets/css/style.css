@@ -33,14 +33,15 @@ nav ul li a:hover{
 .current_link{
     text-decoration: line-through;
 }
+section{
+    padding-left: 20%;
+}
 section.front-landing{
     background: url('../imgs/background1.png'); 
     padding-bottom: 10vw;
 }
 .name-landing{
-    font-family: 'Kanit', sans-serif;
     font-size: 4vw;
-    margin-left: 20%;
     padding-top: 2vw;
 }
 .name-landing h1{
@@ -77,15 +78,14 @@ section.skills-info{
 }
 .skills-info .content{
     padding-top: 5vw;
-    margin-left: 20%;
     display: flex;
+    padding-bottom: 2.5vw;
 }
 .skills{
     width: 20%;
 }
 .skill-cube{
     height: 4vw;
-    border: 1px solid white;
     margin-bottom: 2vw;
     display: flex;
 }
@@ -102,8 +102,9 @@ section.skills-info{
     border: 2px solid white;
 }
 .logo svg{
-    max-height: 2.5vw;
-    max-width: 2.5vw;
+    height: 1.5vw;
+    width: .8vw;
+    margin: 0;
 }
 .what-can-i-do{
     margin-left: 5%;
@@ -143,4 +144,30 @@ section.skills-info{
 }
 .what-can-i-do-p-spacing{
     padding-top: 2.2vw;
+}
+section.about{
+    background: url('../imgs/about.jpg');
+    display: flex;
+}
+section.about p{
+    margin: 0;
+    color: rgb(175, 175, 175);
+}
+section.about .left{
+    width: 30%;
+    padding-top: 8vw;
+}
+.right .picture .border{
+    border: 2px solid rgb(0, 217, 255);
+    width: 35vw;
+    height: 32vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    z-index: 2;
+}
+.right .picture .border img{
+    margin-left: 2vw;
+    margin-top: 2vw;
+    width: 35vw;
+    z-index: -1;
 }
