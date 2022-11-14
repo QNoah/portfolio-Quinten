@@ -162,6 +162,7 @@ section.skills-info{
 }
 section.about{
     background: url('../imgs/about.jpg');
+    background-size: cover;
     z-index: -1;
     display: flex;
     padding-bottom: 8vw;
@@ -234,4 +235,32 @@ section.projects p{
 .project-box img{
     border: 4px solid white;
     width: 55vw;
+}
+section.contact-page{
+    background: url('../imgs/contact.jpg');
+}
+.contact-page h1{
+    margin: 0;
+    color: white;
+}
+.contact-us-heading{
+    display: flex;
+    padding-top: 5vw;
+}
+.socials-contact{
+    color: white;
+    display: flex;
+    align-items: center
+}
+.socials-contact-info{
+    margin-left: .5vw;
+}
+.socials-contact-info h5{
+    margin: 0;
+}
+.socials-contact-info a{
+    margin: 0;
+    font-style: italic;
+    font-size: .5vw;
+    color: white;
 }
