@@ -47,11 +47,25 @@ section.front-landing{
 .name-landing h1{
     margin: 0;
     color: white;
+    line-height: 6.5vw;
 }
 .name-landing h2{
     margin: 0;
     color: white;
 }
+h1.typed-out{
+    display: inline-block;
+}
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 5s forwards;
+}
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 70% }
+  }
 .name-landing p{
     margin: 0;
     color: white;
@@ -66,6 +80,7 @@ section.front-landing{
     padding: 1vw;
     background: black;
     border-radius: 5%;
+    line-height: .5vw;
 }
 .front-landing button a{
     color: white;
@@ -79,7 +94,7 @@ section.skills-info{
 .skills-info .content{
     padding-top: 5vw;
     display: flex;
-    padding-bottom: 2.5vw;
+    padding-bottom: 10vw;
 }
 .skills{
     width: 20%;
@@ -149,14 +164,21 @@ section.about{
     background: url('../imgs/about.jpg');
     z-index: -1;
     display: flex;
+    padding-bottom: 8vw;
 }
 section.about p{
     margin: 0;
-    color: aqua;
+    color: white;
+    font-size: 1.2vw;
 }
 section.about .left{
     width: 30%;
     padding-top: 20vw;
+}
+section.about .left h1{
+    font-size: 2.5vw;
+    margin: 0;
+    color: white;
 }
 section.about button.about-me{
     margin-left: 2vw;
@@ -164,7 +186,9 @@ section.about button.about-me{
     color: white;
     padding: 1vw;
     border-radius: 5%;
-    background: rgb(1, 172, 172);
+    background: white;
+    color: black;
+    font-size: 1vw;
     width: 20vw;
 }
 .right .picture{
@@ -173,7 +197,7 @@ section.about button.about-me{
     position: relative;
 }
 .right .picture .border{
-    border: 2px solid rgb(0, 217, 255);
+    border: 2px solid white;
     width: 35vw;
     height: 32vw;
     z-index: 2;
@@ -181,10 +205,33 @@ section.about button.about-me{
 }
 .right .picture img{
     width: 35vw;
+    height: 32vw;
     margin-left: 1.5vw;
     margin-top: 1.5vw;
     z-index: 1;
     position: absolute;
     top: 0;
     left: 0;
+}
+section.projects{
+    background: rgb(33, 33, 48);
+    padding-bottom: 10vw;
+    padding-left: 0;
+    text-align: center;
+    color: white;
+}
+section.projects h1{
+    margin: 0;
+    font-size: 3.5vw;
+    padding-top: 5vw;
+    font-weight: bold;
+}
+section.projects p{
+    font-size: 1.7vw;
+    margin: 0;
+    margin-bottom: 5vw;
+}
+.project-box img{
+    border: 4px solid white;
+    width: 55vw;
 }
