@@ -24,23 +24,45 @@
         <section class="contact-page">
             <div class="left">
                 <div class="contact-us-heading">
-                    <h1 style="color: orange;">-</h1>
-                    <h1 style="color: orange;">[</h1>
+                    <h1 style="color: orange;">--</h1>
+                    <h1 style="color: orange; margin-left: 1.4vw;">[</h1>
                     <h1>Contact Us</h1>
                     <h1 style="color: orange;">]</h1>
                 </div>
-                <hr style="width: 5vw; margin: 0; margin-top: .2vw; background: grey;">
-                <h1 style="font-size: 2.5vw;">Let's Get in</h1>
-                <hr style="width: 5vw; margin: 0; margin-top: .2vw; background: grey;">
-                <h1 style="font-size: 2.5vw;">Touch</h1>
-            </div>
-            <div class="socials-contact">
-                <img src="./assets/imgs/linkedin-logo.png">
-                <div class="socials-contact-info">
-                    <h5>LinkedIn</h5>
-                    <a href="https://www.linkedin.com/in/quinten-nagel-3b3817252/">www.linkedin.com/Quinten</a>
+                <hr style="width: 5vw; margin: 0; margin-top: 1vw; background: grey;">
+                <h1 style="font-size: 3vw;">Let's Get in</h1>
+                <hr style="width: 5vw; margin: 0; margin-top: 1vw; background: grey;">
+                <h1 style="font-size: 3vw;">Touch</h1>
+                <div class="socials-contact">
+                    <img src="./assets/imgs/linkedin-logo.png">
+                    <div class="socials-contact-info">
+                        <h5>LinkedIn</h5>
+                        <a href="https://www.linkedin.com/in/quinten-nagel-3b3817252/">www.linkedin.com/Quinten</a>
+                    </div>
+                </div>
+                <div class="socials-contact">
+                    <img src="./assets/imgs/mail-logo.png">
+                    <div class="socials-contact-info">
+                        <h5>Mail</h5>
+                        <a href="mailto:210688@student.glu.nl">210688@student.glu.nl</a>
+                    </div>
                 </div>
             </div>
+            <div class="right">
+                <div class="contact-form">
+                    <div class="send-message">
+                        <h2>S E N D &nbsp;</h2>
+                        <h2> M E S S A G E</h2>
+                    </div>
+                    <form action="contact.php" method="post">
+                        <div class="names">
+                            <input type="text" name="fname" placeholder="First Name" style="margin-right: 1.5vw;">
+                            <input type="text" name="lname" placeholder="Last Name">
+                        </div>
+                        <input type="email" name="email" placeholder="Email" style="width: 100%;">
+                        <textarea name="message" cols="90" rows="5" placeholder="Message"></textarea>
+                    </form>
+                </div>
         </section>
     <script src="./assets/js/script.js"></script>
 </body>

@@ -238,6 +238,10 @@ section.projects p{
 }
 section.contact-page{
     background: url('../imgs/contact.jpg');
+    display: flex;
+}
+section.contact-page .left{
+    width: 20%;
 }
 .contact-page h1{
     margin: 0;
@@ -246,21 +250,61 @@ section.contact-page{
 .contact-us-heading{
     display: flex;
     padding-top: 5vw;
+    font-size: .8vw;
+    margin-left: 2vw;
 }
 .socials-contact{
     color: white;
     display: flex;
-    align-items: center
+    align-items: center;
+    margin-top: 2vw;
 }
 .socials-contact-info{
-    margin-left: .5vw;
+    margin-left: 1vw;
+    line-height: 1vw;
 }
 .socials-contact-info h5{
     margin: 0;
+    font-size: 1vw;
 }
 .socials-contact-info a{
     margin: 0;
     font-style: italic;
     font-size: .5vw;
     color: white;
+}
+.socials-contact img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.contact-page .right{
+    width: 40%;
+    padding-top: 8vw;
+    color: white;
+    margin-left: 10vw;
+}
+.send-message{
+    display: flex;
+    font-size: 1vw;
+    padding-left: 8vw;
+}
+form .names{
+    display: flex;
+    margin-bottom: .5vw;
+}
+form input{
+    height: 2vw;
+    width: 15vw;
+    border: 2px solid rgb(51, 51, 51);
+    background: rgba(37, 37, 37, 0.555);
+}
+form ::placeholder{
+    color: rgb(75, 75, 75);
+    font-size: 1vw;
+}
+form textarea{
+    background: rgba(37, 37, 37, 0.555);
+    border: 2px solid rgb(51, 51, 51);
+    width: 100%;
+    margin-top: .5vw;
 }
